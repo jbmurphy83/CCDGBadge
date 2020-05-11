@@ -1,0 +1,69 @@
+body{
+    background-color: #74a155;
+    font-family: 'helvetica', sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+nav{
+    background-color: #706e6e;
+    padding-left: 80px
+    padding-right: 80px
+    top: 50px;
+    left: 10px;
+    height: 50px;
+    width: 80vw;
+    z-index: 1;
+}
+nav ul li{
+    float: left;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: end;
+    padding-block-start: 15px;
+}
+#brand {
+    float: left;
+}
+.nav-link{
+color: white;
+text-decoration: none;
+font-family: 'helvetica', sans-serif;
+}
+.nav-link:hover{
+color: lightgray;
+font-weight: bold;  
+}
+#brand .nav-link {
+    color: white;
+}
+#brand .nav-link:hover {
+    color: lightgray;
+    font-weight: bold;
+}
+h1{
+    font-size:80pt;
+    font-family: 'helvetica', sans-serif;
+    text-align: center
+    width: 50vw;
+    float: center;
+}
+#about{
+    margin-top: 50px;
+    display: inline-block;
+}
+#about-picture{
+    width: 30vw;
+    float: left;
+}
+#profile-pic{
+    height:500px;
+    width: 350px;
+    padding-left: 5%;
+    padding-top: 5%;
+    float: center;
+}
+#about-content{
+    width: 40vw;
+    float: right;
+    color: black;
+}
